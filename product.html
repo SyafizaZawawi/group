@@ -1,0 +1,133 @@
+<html>
+<head>
+	<title>Dash Bilis Product</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@200&display=swap' rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+<section id="product-pages">
+	<img src="picture/logo2.png" class="logo">
+	<div class="product-text">
+		<h1>Dash Bilis Product</h1>
+		<p>Made by Us For You !</p>
+	</div>
+	<div class="product-img">
+		<img src="picture/product.png">
+	</div>
+	<div class="info">
+		<h1>Product Information</h1>
+		<p>
+		<p class="test">The original Bilis Rangup is a delicious side dish. Crispy anchovies grade A are one of the premium products used in this recipe, which are free of food preservatives. Snacks and side dishes are possible. It can be eaten immediately without the use of a microwave or frying.<br><br>
+
+A popular taste is the Korean Spicy Bilis Rangup. Spicy flavour that can be managed and is safe to eat, only for teenagers and adults.  It is made up of a range of ingredients, including the best from the farm which is korean hot pepper. Only at DASH BILIS you can get the greatest Korean Spicy Bilis Rangup.<br><br>
+
+Interesting flavors that can only be found at DASH BILIS. Crispy anchovies flavored with Salted Egg, can be eaten in a variety of ways. Like snacks, with rice, bread, with Maggi and etc. according to your taste. Contains ingredients that are safe to eat for all ages, children to the elderly.</p>
+</div>
+</section>
+
+<section id="product-detail">
+	<div class="product-title-text">
+	<p>Our Team</p>
+	<h1>Get To Know Us !</h1>
+	</div>
+	<div class="product-team-row">
+		<div class="product-team-col">
+			<div class="product-user">
+				<img src="picture/adam.jpg">
+				<div class="product-user-info">
+					<h4>ADAM ADHA BIN AHMAD ASHRAF<i class="fab fa-twitter"></i></h4>
+					<small>@theadyaa</small>
+				</div>
+			</div>
+			<p>The greatest glory in living lies not in never falling, but in rising every time we fall</p>
+		</div>
+		<div class="product-team-col">
+			<div class="product-user">
+				<img src="picture/fiza.png">
+				<div class="product-user-info">
+					<h4>NUR SYAFIZA BINTI MD ZAWAWI <i class="fab fa-twitter"></i></h4>
+					<small>@ADAMHENSEM</small>
+				</div>
+			</div>
+			<p>If life were predictable it would cease to be life, and be without flavor.</p>
+		</div>
+		<div class="product-team-col">
+			<div class="product-user">
+				<img src="picture/mia.jpg">
+				<div class="product-user-info">
+					<h4>NUR SAHIRA DAMIA BINTI MOHD SAKERI <i class="fab fa-twitter"></i></h4>
+					<small>@ADAMHENSEM</small>
+				</div>
+			</div>
+			<p>The way to get started is to quit talking and begin doing</p>
+		</div>
+		<div class="product-team-col">
+			<div class="product-user">
+				<img src="picture/haiqal.jpg">
+				<div class="product-user-info">
+					<h4>MUHAMMAD HAIQAL BIN KAMARUDDIN <i class="fab fa-twitter"></i></h4>
+					<small>@ADAMHENSEM</small>
+				</div>
+			</div>
+			<p>Your time is limited, so don't waste it living someone else's life</p>
+		</div>
+		<div class="test2">
+			<a href="ngf"><span></span>More About Us !</a>
+		</div>
+	</div>		
+</section>
+
+
+
+<div id="sideNav">
+	<nav>
+		<ul>
+			<li><a href="#banner">Home</a></li>
+			<li><a href="features.hml">Features</a></li>
+			<li><a href="Producthtml">Product</a></li>
+			<li><a href="Our team.tml">Our Team</a></li>
+			<li><a href="Meet ushtml">Meet us</a></li>
+		</ul>
+	</nav>
+</div>
+
+<div id="menuBtn">
+	<img src="picture/menu1.png" id="menu">
+</div>
+
+
+
+
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right == "-250px";
+
+menuBtn.onclick = function(){
+	if (sideNav.style.right == "-250px"){
+		sideNav.style.right = "0";
+		menu.src = "picture/close.png";
+	}
+	else{
+		sideNav.style.right ="-250px";
+		menu.src = "picture/menu.png";
+
+	}
+}
+
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+
+</script>
+
+
+</body>
+</html>
